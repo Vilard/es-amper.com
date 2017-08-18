@@ -1,0 +1,113 @@
+@keyframes animationnav {
+  from {
+    top: -100px;
+    opacity: 0; }
+  to {
+    top: 0px;
+    opacity: 1; } }
+@media (min-width: 48em) {
+  .banner-toggle {
+    display: none; } }
+@media (max-width: 767px) {
+  html {
+    background-color: #000; }
+
+  header {
+    height: auto; }
+
+  header a {
+    border-bottom: unset; }
+
+  header a:hover {
+    border-bottom: unset; }
+
+  h1 {
+    display: none; }
+
+  .logo_box {
+    flex: 1 100%;
+    padding: 10px; }
+
+  .banner-toggle {
+    top: 0;
+    right: 16px; }
+
+  .banner-toggle button {
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    border-radius: 5px;
+    border: transparent; }
+
+  .banner-toggle .icon-bar {
+    margin: 15% 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 0.25em; }
+
+  .boxes {
+    width: 100%;
+    padding-top: 96px; }
+
+  article {
+    padding: 0 1em;
+    margin: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0; }
+
+  ul {
+    padding-left: 1.2em; }
+
+  header p {
+    display: none; }
+
+  .closebtn {
+    display: block;
+    margin: auto;
+    font-size: 2em; }
+
+  nav {
+    display: none; }
+
+  nav:target {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; }
+
+  nav {
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+    font-size: 100%;
+    animation-name: animationnav;
+    animation-duration: 0.5s; }
+
+  nav .button {
+    width: 100%;
+    border-radius: unset; }
+
+  .button {
+    line-height: normal;
+    justify-content: flex-start;
+    height: auto;
+    padding: 4%;
+    margin-bottom: 1%; }
+
+  .f-size {
+    font-size: 125%; 
+  }
+
+  .head-name {
+    margin: auto;
+    }
+
+  footer {
+    background-color: transparent; } }
+/*# sourceMappingURL=small.css.map */
+/*# sourceMappingURL=small.css.map */
+
+/*# sourceMappingURL=small.css.map */

@@ -57,8 +57,7 @@ a {
   text-decoration: none; }
 
 a {
-  transition: all 0.1s;
-  border-bottom: 1px solid #fff; }
+  transition: all 0.1s; }
 
 a:hover {
   border-bottom: 2px solid #fff; }
@@ -265,7 +264,7 @@ input[type="button"].button-primary {
 nav .button {
   padding-left: 0;
   padding-right: 0;
-  margin-left: 8px; }
+  margin-left: 12px; }
 
 @media (min-width: 768px) {
   .closebtn, .f-size {

@@ -89,25 +89,16 @@ nav ul {
     display: -ms-flex;
     display: -o-flex;
     display: flex; 
-}
+	}
 
-  /*nav {
-    width: 100%;
-    justify-content: space-around;
-    padding: 0;
-    font-size: 100%;
-    animation-name: animationnav;
-    animation-duration: 0.5s; }*/
+
 
   nav .button {
     width: 100%;
     margin-left: 0;
     border-radius: unset; }
 	
-	/*nav a {
-		display: flex;
-		flex-flow: column wrap;
-	}*/
+
 
 	
   .button {
@@ -118,10 +109,9 @@ nav ul {
     }
     .button.button-primary,
 	input[type="button"].button-primary {
-  	border-bottom: unset;
-  
-
+  	border-bottom: unset;}
  }
+  
 /*# sourceMappingURL=small.css.map */
 /*# sourceMappingURL=small.css.map */
 /*# sourceMappingURL=small.css.map */

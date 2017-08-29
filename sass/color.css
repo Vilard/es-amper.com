@@ -8,7 +8,7 @@ header, .banner-toggle button {
   background-color: transparent; }
 
 .tablehead {
-  background-color: #009acf; }
+  background-color: #555; }
 
 header {
   background: linear-gradient(to right, #009acf 0%, #000000 52%); }
@@ -21,10 +21,15 @@ tr:nth-of-type(2n+2) {
 
 article, article a {
   color: #555; }
+ article a:hover {
+  color: #00b3ff; }
+a:hover {
+  color: #f0de69; }
 
 footer {
   background-color: #000; }
 
+/*# sourceMappingURL=color.css.map */
 /*# sourceMappingURL=color.css.map */
 /*# sourceMappingURL=color.css.map */
 

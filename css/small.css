@@ -1,14 +1,14 @@
-@keyframes animationnav {
+/*@keyframes animationnav {
   from {
     top: -100px;
     opacity: 0; }
   to {
     top: 0px;
-    opacity: 1; } }
-@media (min-width: 48em) {
+    opacity: 1; } }*/
+@media (min-width: 1024px) {
   .banner-toggle {
     display: none; } }
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   html {
     background-color: #000; }
 
@@ -28,7 +28,7 @@
     flex: 1 100%;
     padding: 10px; }
 
-  .banner-toggle {
+/*  .banner-toggle {
     top: 0;
     right: 16px; }
 
@@ -45,7 +45,7 @@
     margin-right: auto;
     margin-left: auto;
     width: 60%;
-    height: 0.25em; }
+    height: 0.25em; }*/
 
   .boxes {
     width: 100%;
@@ -67,8 +67,8 @@
     display: block;
     margin: auto;
     font-size: 2em; }
-
-  nav {
+    
+ /* nav {
     display: none; }
 
   nav:target {
@@ -88,6 +88,7 @@
 
   nav .button {
     width: 100%;
+    margin-left: 0;
     border-radius: unset; }
 
   .button {
@@ -95,7 +96,7 @@
     justify-content: flex-start;
     height: auto;
     padding: 4%;
-    margin-bottom: 1%; }
+    margin-bottom: 1%; }*/
 
   .f-size {
     font-size: 125%; }

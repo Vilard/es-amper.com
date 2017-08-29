@@ -4,8 +4,9 @@ $(document).ready(function() {
   });//end slide toggle
   
   $(window).resize(function() {		
-		if (  $(window).width() > 767 ) {			
+		if (  $(window).width() > 1024 ) {			
 			$('nav').removeAttr('style');
 		 }
 	});//end resize
+	$('') 
 });//end ready

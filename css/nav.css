@@ -1,0 +1,129 @@
+nav{
+  display: flex; 
+  flex-flow: row wrap;
+  flex: 1 1 100%;
+  justify-content: flex-end;
+  padding: 0;
+  margin-right: 8px;
+
+}
+ nav ul  {
+	display: flex;
+	flex-flow: row wrap;
+	flex: 0 1 auto;
+}
+li ul {
+}
+
+ul .sub_nav {
+	display: none;
+	box-sizing: inherit;
+	}
+ul .sub_nav:hover{
+	display: block;
+}
+
+nav .button {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 12px; }
+
+.button, input[type="button"] {
+  display: inline-block;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 98%;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-bottom: 2px; }
+
+.button:hover,
+input[type="button"]:hover,
+.button:focus,
+input[type="button"]:focus {
+  outline: 0; }
+
+.button.button-primary,
+input[type="button"].button-primary {
+  border-bottom: 3px solid #fff; }
+
+.button-primary {
+  margin-bottom: 0px; }
+
+
+nav ul {
+	list-style: none;
+}
+
+@media (min-width: 1024px) {
+  .banner-toggle {
+    display: none; } }
+@media (max-width: 1023px) {
+
+  .banner-toggle {
+    top: 0;
+    right: 16px; }
+
+  .banner-toggle button {
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    border-radius: 5px;
+    border: transparent; }
+
+  .banner-toggle .icon-bar {
+    margin: 15% 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 0.25em; }
+
+  nav {
+    display: none; }
+
+  nav:target {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; 
+}
+
+  /*nav {
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+    font-size: 100%;
+    animation-name: animationnav;
+    animation-duration: 0.5s; }*/
+
+  nav .button {
+    width: 100%;
+    margin-left: 0;
+    border-radius: unset; }
+	
+	/*nav a {
+		display: flex;
+		flex-flow: column wrap;
+	}*/
+
+	
+  .button {
+    line-height: normal;
+    justify-content: flex-start;
+    height: auto;
+    padding: 2%;
+    }
+    .button.button-primary,
+	input[type="button"].button-primary {
+  	border-bottom: unset;
+  
+
+ }
+/*# sourceMappingURL=small.css.map */
+/*# sourceMappingURL=small.css.map */
+/*# sourceMappingURL=small.css.map */
+
+/*# sourceMappingURL=small.css.map */

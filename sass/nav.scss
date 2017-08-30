@@ -4,25 +4,20 @@ nav{
   flex: 1 1 100%;
   justify-content: flex-end;
   padding: 0;
-  margin-right: 8px;
+  margin-right: 8px; }
 
-}
- nav ul  {
+nav ul  {
 	display: flex;
 	flex-flow: row wrap;
-	flex: 0 1 auto;
-}
-li ul {
-}
+	flex: 0 1 auto; }
 
 ul .sub_nav {
 	display: none;
-	box-sizing: inherit;
-	}
+	box-sizing: inherit; }
+
 ul .sub_nav:hover{
 	display: block;
 }
-
 nav .button {
   padding-left: 0;
   padding-right: 0;
@@ -105,11 +100,12 @@ nav ul {
     line-height: normal;
     justify-content: flex-start;
     height: auto;
-    padding: 2%;
-    }
+    padding: 2%;}
+  
     .button.button-primary,
 	input[type="button"].button-primary {
-  	border-bottom: unset;}
+  	border-bottom: unset;
+    color: #a94;}
  }
   
 /*# sourceMappingURL=small.css.map */

@@ -109,7 +109,8 @@ nav ul {
     }
     .button.button-primary,
 	input[type="button"].button-primary {
-  	border-bottom: unset;}
+  	border-bottom: unset;
+    color: #a94;
  }
   
 /*# sourceMappingURL=small.css.map */

@@ -1,7 +1,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 130%; }
-
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+}
 header, .boxes, footer, .footer, .logo_box,
 .gallery, figure, figcaption,
 .contacts, .column {

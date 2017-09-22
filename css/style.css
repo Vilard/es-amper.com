@@ -1,11 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 130%; }
-iframe {
-  display: block;
-  margin: 0 auto;
-  max-width: 90%;
-}
+
+
 header, .boxes, footer, .footer, .logo_box,
 .gallery, figure, figcaption,
 .contacts, .column {
@@ -143,7 +140,22 @@ article {
 
 article a {
   border-bottom: 1px solid #555; }
-
+iframe {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+  flex: 1 1 auto;
+  margin: 0 auto;
+  width: 90%;
+  min-width: 231px;
+  height: 60vh;
+  /*min-height: 280px;
+  max-height: 1000px;*/
+  padding-bottom: 20px;
+}
 .center {
   text-align: center; }
 
